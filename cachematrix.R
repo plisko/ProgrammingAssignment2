@@ -1,4 +1,4 @@
-## R Programming - Peer Assessment 
+## R Programming - Peer Assessment (02)
 ## 
 ## The objective of the two functions below is to implement a caching system
 ##  for the computation of the inverse of a matrix.
@@ -54,3 +54,4 @@ cacheSolve <- function(x, ...) {
 # > all(s == r)
 # [1] FALSE
 ##
+
