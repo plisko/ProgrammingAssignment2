@@ -8,7 +8,6 @@
 # (if already computed! - cached).
 # In any subsequent computation of the same inverse, the cached version should be used.
 # This method does a smart use of R scoping rules.
-
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     
@@ -50,7 +49,7 @@ cacheSolve <- function(x, ...) {
 }
 
 
-## Example of usage ##
+## EXAMPLE OF USAGE ##
 #
 # > test <- makeCacheMatrix(matrix(rnorm(10000, mean=10, sd=1), nrow=100, ncol=100))
 # > r <- cacheSolve(test)
